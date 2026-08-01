@@ -3,126 +3,29 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>골고루 — 흩어진 계좌를 한눈에, 목표 배분까지</title>
-<meta name="description" content="골고루는 흩어진 계좌를 한눈에 모으고, 목표 자산배분과 실제 보유의 차이를 계산하는 iPhone · iPad · Mac 개인 자산관리 앱입니다.">
-<link rel="canonical" href="https://indus96.github.io/">
-<meta property="og:title" content="골고루 — 흩어진 계좌를 한눈에, 목표 배분까지">
-<meta property="og:description" content="흩어진 계좌를 한눈에 모으고, 목표 자산배분과의 차이를 계산합니다.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://indus96.github.io/">
+<title>골고루 — golgoru.app으로 이동</title>
+<meta name="description" content="골고루 홈페이지가 golgoru.app으로 옮겨졌습니다.">
+<link rel="canonical" href="https://golgoru.app/">
+<meta http-equiv="refresh" content="0; url=https://golgoru.app/">
 <style>
-  :root{
-    --bg:#FAF7F2; --card:#FFFFFF; --gold:#C9A227;
-    --ink:#3A3A3A; --sub:#6B6350; --hint:#948A72; --line:#E9E1D2; --radius:18px;
-  }
-  *{box-sizing:border-box}
   body{
-    margin:0; background:var(--bg); color:var(--ink);
+    margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+    background:#FAF7F2; color:#3A3A3A; text-align:center; padding:24px;
     font:16px/1.7 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",sans-serif;
   }
-  .wrap{max-width:760px;margin:0 auto;padding:0 24px}
-  header{padding:72px 0 40px;text-align:center}
-  h1{font-size:44px;line-height:1.2;margin:0 0 14px;letter-spacing:-.02em}
-  .tag{color:var(--sub);font-size:18px;margin:0}
-  .rule{width:56px;height:4px;background:var(--gold);border-radius:2px;margin:24px auto 0}
-  h2{font-size:22px;margin:0 0 14px;letter-spacing:-.01em}
-  section{padding:28px 0}
-  .card{
-    background:var(--card);border:1px solid var(--line);
-    border-radius:var(--radius);padding:24px 26px;margin:0 0 16px;
-  }
-  ul{margin:0;padding-left:20px}
-  li{margin:8px 0}
-  .cta{
-    display:inline-block;background:var(--gold);color:#fff;text-decoration:none;
-    padding:12px 24px;border-radius:999px;font-weight:600;
-  }
-  .links{display:flex;flex-wrap:wrap;gap:10px 22px;padding:0;list-style:none;margin:0 0 18px}
-  .links a{color:var(--sub)}
-  a{color:var(--gold)}
-  .note{color:var(--hint);font-size:14px}
-  footer{padding:40px 0 64px;color:var(--hint);font-size:14px;border-top:1px solid var(--line);margin-top:32px}
-  @media (max-width:520px){ h1{font-size:34px} header{padding:52px 0 28px} }
+  h1{font-size:40px;margin:0 0 12px;letter-spacing:-.02em}
+  p{color:#6B6350;margin:0 0 24px}
+  .rule{width:56px;height:4px;background:#C9A227;border-radius:2px;margin:0 auto 24px}
+  a{display:inline-block;background:#C9A227;color:#fff;text-decoration:none;
+    padding:12px 24px;border-radius:999px;font-weight:600}
 </style>
 </head>
 <body>
-<div class="wrap">
-
-  <header>
+  <div>
     <h1>골고루</h1>
-    <p class="tag">흩어진 계좌를 한눈에, 목표 배분까지</p>
     <div class="rule"></div>
-  </header>
-
-  <section>
-    <h2>어떤 앱인가요?</h2>
-    <div class="card">
-      <p style="margin-top:0">
-        골고루는 여러 곳에 흩어진 계좌를 한 화면에 모으고,
-        <b>목표 자산배분과 실제 보유의 차이</b>를 계산해 무엇부터 손볼지 알려주는
-        개인 자산관리 앱입니다. iPhone · iPad · Mac에서 같은 앱으로 씁니다.
-      </p>
-      <p style="margin-bottom:0" class="note">
-        증권사 앱을 여러 개 열어보며 총자산을 더하고 계신 분,
-        목표 비중은 정해뒀는데 지금 얼마나 벗어났는지 모르시는 분을 위한 앱입니다.
-      </p>
-    </div>
-  </section>
-
-  <section>
-    <h2>세 가지로 시작합니다</h2>
-    <div class="card">
-      <ul>
-        <li><b>둘러보기</b> — 로그인도 입력도 없이 예시 자산으로 모든 화면을 먼저 봅니다.</li>
-        <li><b>앱에 직접 입력</b> — 계좌와 보유 종목을 앱 안에서 관리합니다. 데이터는 기기에만 저장됩니다.</li>
-        <li><b>Google Sheets 연동</b> — 쓰던 스프레드시트를 그대로 원장으로 씁니다. <b>앱은 읽기만 합니다.</b></li>
-      </ul>
-    </div>
-  </section>
-
-  <section>
-    <h2>무엇을 보여주나요</h2>
-    <div class="card">
-      <ul>
-        <li><b>대시보드</b> — 총자산, 현금 비중, 자산군 구성, 시장지표, 뉴스 요약</li>
-        <li><b>자산순위</b> — 계좌별 · 자산군별 · 종목별 순위와 실시간 시세</li>
-        <li><b>자산배분</b> — 목표 비중과 실제 비중의 차이, 계좌별 조정 금액</li>
-        <li><b>자산 구성 분석</b> — 투자 건강점수, 집중도, 국가 · 산업 배분, 자산 추정</li>
-        <li><b>AI 자산 점검</b> — 편중을 진단하고 성향에 맞는 목표를 제안(기본 꺼짐)</li>
-      </ul>
-    </div>
-  </section>
-
-  <section>
-    <h2>데이터는 사용자 것입니다</h2>
-    <div class="card">
-      <ul>
-        <li>자산 금액 · 환산 · 배분 계산은 모두 기기 안에서 이루어집니다.</li>
-        <li>자산 데이터는 앱 제공자 서버에 저장되지 않습니다.</li>
-        <li>Google Sheets는 <b>읽기 권한만</b> 요청하며, 앱이 시트를 고치거나 지우지 않습니다.</li>
-        <li>증권사 연결은 잔고를 읽어오는 용도입니다. <b>이 앱은 주문을 넣지 않습니다.</b></li>
-      </ul>
-    </div>
-  </section>
-
-  <section style="text-align:center;padding-top:8px">
-    <a class="cta" href="/GOLGORU/">기능 자세히 보기</a>
-  </section>
-
-  <footer>
-    <ul class="links">
-      <li><a href="/GOLGORU/">기능 소개</a></li>
-      <li><a href="/GOLGORU/docs/getting-started.html">시작하기</a></li>
-      <li><a href="/GOLGORU/docs/privacy.html">개인정보처리방침</a></li>
-      <li><a href="/GOLGORU/docs/data-security.html">데이터와 보안</a></li>
-      <li><a href="mailto:indus96@gmail.com">indus96@gmail.com</a></li>
-    </ul>
-    <p style="margin-bottom:0">
-      이 앱이 제공하는 분석과 제안은 참고 자료일 뿐 투자 권유나 자문이 아닙니다.
-      모든 투자 판단과 그 결과에 대한 책임은 사용자 본인에게 있습니다.
-    </p>
-  </footer>
-
-</div>
+    <p>홈페이지가 <b>golgoru.app</b>으로 옮겨졌습니다.<br>잠시 후 자동으로 이동합니다.</p>
+    <a href="https://golgoru.app/">golgoru.app으로 이동</a>
+  </div>
 </body>
 </html>
